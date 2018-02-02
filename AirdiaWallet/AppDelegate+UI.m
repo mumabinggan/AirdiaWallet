@@ -15,11 +15,11 @@
 
 - (void)launchUIApplicatioin:(UIApplication *)application withOptions:(NSDictionary *)launchOptions {
     //set NavigationController
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
-    _rootVC = [[ZAANavigationController alloc] init];
-    self.window.rootViewController = _rootVC;
-    [self.window makeKeyAndVisible];
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    
+//    _rootVC = [[ZAANavigationController alloc] init];
+//    self.window.rootViewController = _rootVC;
+//    [self.window makeKeyAndVisible];
     
     /// Show welcome view
     
@@ -32,8 +32,8 @@
 
 - (void)loadRootViewController:(UIApplication *)application withOptions:(NSDictionary *)launchOptions {
     //add MainViewController
-    ZAAMainViewController *mainVC = [[ZAAMainViewController alloc] init];
-    [_rootVC setViewControllers:@[mainVC] animated:NO];
+//    ZAAMainViewController *mainVC = [[ZAAMainViewController alloc] init];
+//    [_rootVC setViewControllers:@[mainVC] animated:NO];
 }
 
 @end

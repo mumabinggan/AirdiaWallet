@@ -17,27 +17,27 @@
 		BEA1C3FB202464AE004FD267 /* ZAAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C3FA202464AE004FD267 /* ZAAMainViewController.m */; };
 		BEA1C3FE202464C7004FD267 /* AppDelegate+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C3FD202464C7004FD267 /* AppDelegate+UI.m */; };
 		BEA1C40C202465B5004FD267 /* ZAANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C40B202465B5004FD267 /* ZAANavigationController.m */; };
-		BEA1C40F202466C4004FD267 /* JHKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C3F620246468004FD267 /* JHKit.framework */; };
-		BEA1C41220246819004FD267 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41820246819004FD267 /* AFNetworking.framework */; };
-		BEA1C41320246819004FD267 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41920246819004FD267 /* FMDB.framework */; };
-		BEA1C41420246819004FD267 /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41A20246819004FD267 /* IQKeyboardManager.framework */; };
-		BEA1C41520246819004FD267 /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41B20246819004FD267 /* JSONModel.framework */; };
-		BEA1C41620246819004FD267 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41C20246819004FD267 /* MBProgressHUD.framework */; };
-		BEA1C41720246819004FD267 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41D20246819004FD267 /* SDWebImage.framework */; };
-		BEA1C43B20246BC0004FD267 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41820246819004FD267 /* AFNetworking.framework */; };
-		BEA1C43C20246BC0004FD267 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41820246819004FD267 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BEA1C43D20246BC0004FD267 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41920246819004FD267 /* FMDB.framework */; };
-		BEA1C43E20246BC0004FD267 /* FMDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41920246819004FD267 /* FMDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BEA1C43F20246BC0004FD267 /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41A20246819004FD267 /* IQKeyboardManager.framework */; };
-		BEA1C44020246BC0004FD267 /* IQKeyboardManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41A20246819004FD267 /* IQKeyboardManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BEA1C44120246BC0004FD267 /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41B20246819004FD267 /* JSONModel.framework */; };
-		BEA1C44220246BC0004FD267 /* JSONModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41B20246819004FD267 /* JSONModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BEA1C44320246BC0004FD267 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41C20246819004FD267 /* MBProgressHUD.framework */; };
-		BEA1C44420246BC0004FD267 /* MBProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41C20246819004FD267 /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BEA1C44520246BC0004FD267 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41D20246819004FD267 /* SDWebImage.framework */; };
-		BEA1C44620246BC0004FD267 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41D20246819004FD267 /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BEA1C44820246BD9004FD267 /* JHKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C3F620246468004FD267 /* JHKit.framework */; };
-		BEA1C44920246BD9004FD267 /* JHKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C3F620246468004FD267 /* JHKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEA1C49E20247C50004FD267 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41820246819004FD267 /* AFNetworking.framework */; };
+		BEA1C49F20247C50004FD267 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41920246819004FD267 /* FMDB.framework */; };
+		BEA1C4A020247C50004FD267 /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41A20246819004FD267 /* IQKeyboardManager.framework */; };
+		BEA1C4A120247C50004FD267 /* JHKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C3F620246468004FD267 /* JHKit.framework */; };
+		BEA1C4A220247C50004FD267 /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41B20246819004FD267 /* JSONModel.framework */; };
+		BEA1C4A320247C50004FD267 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41C20246819004FD267 /* MBProgressHUD.framework */; };
+		BEA1C4A420247C50004FD267 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41D20246819004FD267 /* SDWebImage.framework */; };
+		BEA1C4A720247C95004FD267 /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41B20246819004FD267 /* JSONModel.framework */; };
+		BEA1C4A820247C95004FD267 /* JSONModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41B20246819004FD267 /* JSONModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEA1C4A920247C95004FD267 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41820246819004FD267 /* AFNetworking.framework */; };
+		BEA1C4AA20247C95004FD267 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41820246819004FD267 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEA1C4AB20247C95004FD267 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41920246819004FD267 /* FMDB.framework */; };
+		BEA1C4AC20247C95004FD267 /* FMDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41920246819004FD267 /* FMDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEA1C4AD20247C96004FD267 /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41A20246819004FD267 /* IQKeyboardManager.framework */; };
+		BEA1C4AE20247C96004FD267 /* IQKeyboardManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41A20246819004FD267 /* IQKeyboardManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEA1C4AF20247C96004FD267 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41C20246819004FD267 /* MBProgressHUD.framework */; };
+		BEA1C4B020247C96004FD267 /* MBProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41C20246819004FD267 /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEA1C4B120247C96004FD267 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41D20246819004FD267 /* SDWebImage.framework */; };
+		BEA1C4B220247C96004FD267 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41D20246819004FD267 /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEA1C4B320247C96004FD267 /* JHKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C3F620246468004FD267 /* JHKit.framework */; };
+		BEA1C4B420247C96004FD267 /* JHKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C3F620246468004FD267 /* JHKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,14 +69,14 @@
 			remoteGlobalIDString = BE62D5D31DF8DAFD004510A5;
 			remoteInfo = JHKitTests;
 		};
-		BEA1C410202466C9004FD267 /* PBXContainerItemProxy */ = {
+		BEA1C4A520247C5B004FD267 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BEA1C3EA20246468004FD267 /* JHKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = BE62D5C91DF8DAFD004510A5;
 			remoteInfo = JHKit;
 		};
-		BEA1C44A20246BD9004FD267 /* PBXContainerItemProxy */ = {
+		BEA1C4B520247C96004FD267 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BEA1C3EA20246468004FD267 /* JHKit.xcodeproj */;
 			proxyType = 1;
@@ -86,19 +86,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BEA1C44720246BC0004FD267 /* Embed Frameworks */ = {
+		BEA1C4B720247C96004FD267 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BEA1C43C20246BC0004FD267 /* AFNetworking.framework in Embed Frameworks */,
-				BEA1C43E20246BC0004FD267 /* FMDB.framework in Embed Frameworks */,
-				BEA1C44220246BC0004FD267 /* JSONModel.framework in Embed Frameworks */,
-				BEA1C44420246BC0004FD267 /* MBProgressHUD.framework in Embed Frameworks */,
-				BEA1C44620246BC0004FD267 /* SDWebImage.framework in Embed Frameworks */,
-				BEA1C44020246BC0004FD267 /* IQKeyboardManager.framework in Embed Frameworks */,
-				BEA1C44920246BD9004FD267 /* JHKit.framework in Embed Frameworks */,
+				BEA1C4A820247C95004FD267 /* JSONModel.framework in Embed Frameworks */,
+				BEA1C4AE20247C96004FD267 /* IQKeyboardManager.framework in Embed Frameworks */,
+				BEA1C4AC20247C95004FD267 /* FMDB.framework in Embed Frameworks */,
+				BEA1C4B020247C96004FD267 /* MBProgressHUD.framework in Embed Frameworks */,
+				BEA1C4B220247C96004FD267 /* SDWebImage.framework in Embed Frameworks */,
+				BEA1C4AA20247C95004FD267 /* AFNetworking.framework in Embed Frameworks */,
+				BEA1C4B420247C96004FD267 /* JHKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,20 +141,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA1C41220246819004FD267 /* AFNetworking.framework in Frameworks */,
-				BEA1C43B20246BC0004FD267 /* AFNetworking.framework in Frameworks */,
-				BEA1C41320246819004FD267 /* FMDB.framework in Frameworks */,
-				BEA1C41420246819004FD267 /* IQKeyboardManager.framework in Frameworks */,
-				BEA1C41520246819004FD267 /* JSONModel.framework in Frameworks */,
-				BEA1C41620246819004FD267 /* MBProgressHUD.framework in Frameworks */,
-				BEA1C41720246819004FD267 /* SDWebImage.framework in Frameworks */,
-				BEA1C43F20246BC0004FD267 /* IQKeyboardManager.framework in Frameworks */,
-				BEA1C44320246BC0004FD267 /* MBProgressHUD.framework in Frameworks */,
-				BEA1C44520246BC0004FD267 /* SDWebImage.framework in Frameworks */,
-				BEA1C44120246BC0004FD267 /* JSONModel.framework in Frameworks */,
-				BEA1C43D20246BC0004FD267 /* FMDB.framework in Frameworks */,
-				BEA1C40F202466C4004FD267 /* JHKit.framework in Frameworks */,
-				BEA1C44820246BD9004FD267 /* JHKit.framework in Frameworks */,
+				BEA1C49E20247C50004FD267 /* AFNetworking.framework in Frameworks */,
+				BEA1C49F20247C50004FD267 /* FMDB.framework in Frameworks */,
+				BEA1C4A720247C95004FD267 /* JSONModel.framework in Frameworks */,
+				BEA1C4AB20247C95004FD267 /* FMDB.framework in Frameworks */,
+				BEA1C4A020247C50004FD267 /* IQKeyboardManager.framework in Frameworks */,
+				BEA1C4A220247C50004FD267 /* JSONModel.framework in Frameworks */,
+				BEA1C4A320247C50004FD267 /* MBProgressHUD.framework in Frameworks */,
+				BEA1C4AD20247C96004FD267 /* IQKeyboardManager.framework in Frameworks */,
+				BEA1C4AF20247C96004FD267 /* MBProgressHUD.framework in Frameworks */,
+				BEA1C4B120247C96004FD267 /* SDWebImage.framework in Frameworks */,
+				BEA1C4A420247C50004FD267 /* SDWebImage.framework in Frameworks */,
+				BEA1C4A920247C95004FD267 /* AFNetworking.framework in Frameworks */,
+				BEA1C4A120247C50004FD267 /* JHKit.framework in Frameworks */,
+				BEA1C4B320247C96004FD267 /* JHKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,13 +308,13 @@
 				BEA1C2AC2024610B004FD267 /* Sources */,
 				BEA1C2AD2024610B004FD267 /* Frameworks */,
 				BEA1C2AE2024610B004FD267 /* Resources */,
-				BEA1C44720246BC0004FD267 /* Embed Frameworks */,
+				BEA1C4B720247C96004FD267 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BEA1C411202466C9004FD267 /* PBXTargetDependency */,
-				BEA1C44B20246BD9004FD267 /* PBXTargetDependency */,
+				BEA1C4A620247C5B004FD267 /* PBXTargetDependency */,
+				BEA1C4B620247C96004FD267 /* PBXTargetDependency */,
 			);
 			name = AirdiaWallet;
 			productName = AirdiaWallet;
@@ -494,15 +494,15 @@
 			target = BEA1C2AF2024610B004FD267 /* AirdiaWallet */;
 			targetProxy = BEA1C2D42024610B004FD267 /* PBXContainerItemProxy */;
 		};
-		BEA1C411202466C9004FD267 /* PBXTargetDependency */ = {
+		BEA1C4A620247C5B004FD267 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JHKit;
-			targetProxy = BEA1C410202466C9004FD267 /* PBXContainerItemProxy */;
+			targetProxy = BEA1C4A520247C5B004FD267 /* PBXContainerItemProxy */;
 		};
-		BEA1C44B20246BD9004FD267 /* PBXTargetDependency */ = {
+		BEA1C4B620247C96004FD267 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JHKit;
-			targetProxy = BEA1C44A20246BD9004FD267 /* PBXContainerItemProxy */;
+			targetProxy = BEA1C4B520247C96004FD267 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
