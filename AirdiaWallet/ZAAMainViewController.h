@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZAAMainViewController.h
 //  AirdiaWallet
 //
 //  Created by muma on 2018/2/2.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZAAMainViewController : UITabBarController
 
 @end
-

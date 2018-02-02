@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class ZAANavigationController;
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    ZAANavigationController *_rootVC;
+}
 
 @property (strong, nonatomic) UIWindow *window;
-
 
 @end
 
