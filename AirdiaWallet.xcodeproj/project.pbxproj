@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEA1C2B52024610B004FD267 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C2B42024610B004FD267 /* AppDelegate.m */; };
+		BEA1C2B82024610B004FD267 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C2B72024610B004FD267 /* ViewController.m */; };
+		BEA1C2BB2024610B004FD267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA1C2B92024610B004FD267 /* Main.storyboard */; };
+		BEA1C2BD2024610B004FD267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA1C2BC2024610B004FD267 /* Assets.xcassets */; };
+		BEA1C2C02024610B004FD267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA1C2BE2024610B004FD267 /* LaunchScreen.storyboard */; };
+		BEA1C2C32024610B004FD267 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C2C22024610B004FD267 /* main.m */; };
+		BEA1C2CD2024610B004FD267 /* AirdiaWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C2CC2024610B004FD267 /* AirdiaWalletTests.m */; };
+		BEA1C2D82024610B004FD267 /* AirdiaWalletUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C2D72024610B004FD267 /* AirdiaWalletUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEA1C2C92024610B004FD267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA1C2A82024610B004FD267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA1C2AF2024610B004FD267;
+			remoteInfo = AirdiaWallet;
+		};
+		BEA1C2D42024610B004FD267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA1C2A82024610B004FD267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA1C2AF2024610B004FD267;
+			remoteInfo = AirdiaWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEA1C2B02024610B004FD267 /* AirdiaWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirdiaWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA1C2B32024610B004FD267 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEA1C2B42024610B004FD267 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEA1C2B62024610B004FD267 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEA1C2B72024610B004FD267 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEA1C2BA2024610B004FD267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEA1C2BC2024610B004FD267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEA1C2BF2024610B004FD267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEA1C2C12024610B004FD267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA1C2C22024610B004FD267 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEA1C2C82024610B004FD267 /* AirdiaWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirdiaWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA1C2CC2024610B004FD267 /* AirdiaWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirdiaWalletTests.m; sourceTree = "<group>"; };
+		BEA1C2CE2024610B004FD267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA1C2D32024610B004FD267 /* AirdiaWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirdiaWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA1C2D72024610B004FD267 /* AirdiaWalletUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirdiaWalletUITests.m; sourceTree = "<group>"; };
+		BEA1C2D92024610B004FD267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA1C2AD2024610B004FD267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA1C2C52024610B004FD267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA1C2D02024610B004FD267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEA1C2A72024610B004FD267 = {
+			isa = PBXGroup;
+			children = (
+				BEA1C2B22024610B004FD267 /* AirdiaWallet */,
+				BEA1C2CB2024610B004FD267 /* AirdiaWalletTests */,
+				BEA1C2D62024610B004FD267 /* AirdiaWalletUITests */,
+				BEA1C2B12024610B004FD267 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEA1C2B12024610B004FD267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEA1C2B02024610B004FD267 /* AirdiaWallet.app */,
+				BEA1C2C82024610B004FD267 /* AirdiaWalletTests.xctest */,
+				BEA1C2D32024610B004FD267 /* AirdiaWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEA1C2B22024610B004FD267 /* AirdiaWallet */ = {
+			isa = PBXGroup;
+			children = (
+				BEA1C2B32024610B004FD267 /* AppDelegate.h */,
+				BEA1C2B42024610B004FD267 /* AppDelegate.m */,
+				BEA1C2B62024610B004FD267 /* ViewController.h */,
+				BEA1C2B72024610B004FD267 /* ViewController.m */,
+				BEA1C2B92024610B004FD267 /* Main.storyboard */,
+				BEA1C2BC2024610B004FD267 /* Assets.xcassets */,
+				BEA1C2BE2024610B004FD267 /* LaunchScreen.storyboard */,
+				BEA1C2C12024610B004FD267 /* Info.plist */,
+				BEA1C2C22024610B004FD267 /* main.m */,
+			);
+			path = AirdiaWallet;
+			sourceTree = "<group>";
+		};
+		BEA1C2CB2024610B004FD267 /* AirdiaWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA1C2CC2024610B004FD267 /* AirdiaWalletTests.m */,
+				BEA1C2CE2024610B004FD267 /* Info.plist */,
+			);
+			path = AirdiaWalletTests;
+			sourceTree = "<group>";
+		};
+		BEA1C2D62024610B004FD267 /* AirdiaWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA1C2D72024610B004FD267 /* AirdiaWalletUITests.m */,
+				BEA1C2D92024610B004FD267 /* Info.plist */,
+			);
+			path = AirdiaWalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEA1C2AF2024610B004FD267 /* AirdiaWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA1C2DC2024610B004FD267 /* Build configuration list for PBXNativeTarget "AirdiaWallet" */;
+			buildPhases = (
+				BEA1C2AC2024610B004FD267 /* Sources */,
+				BEA1C2AD2024610B004FD267 /* Frameworks */,
+				BEA1C2AE2024610B004FD267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirdiaWallet;
+			productName = AirdiaWallet;
+			productReference = BEA1C2B02024610B004FD267 /* AirdiaWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEA1C2C72024610B004FD267 /* AirdiaWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA1C2DF2024610B004FD267 /* Build configuration list for PBXNativeTarget "AirdiaWalletTests" */;
+			buildPhases = (
+				BEA1C2C42024610B004FD267 /* Sources */,
+				BEA1C2C52024610B004FD267 /* Frameworks */,
+				BEA1C2C62024610B004FD267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA1C2CA2024610B004FD267 /* PBXTargetDependency */,
+			);
+			name = AirdiaWalletTests;
+			productName = AirdiaWalletTests;
+			productReference = BEA1C2C82024610B004FD267 /* AirdiaWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEA1C2D22024610B004FD267 /* AirdiaWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA1C2E22024610B004FD267 /* Build configuration list for PBXNativeTarget "AirdiaWalletUITests" */;
+			buildPhases = (
+				BEA1C2CF2024610B004FD267 /* Sources */,
+				BEA1C2D02024610B004FD267 /* Frameworks */,
+				BEA1C2D12024610B004FD267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA1C2D52024610B004FD267 /* PBXTargetDependency */,
+			);
+			name = AirdiaWalletUITests;
+			productName = AirdiaWalletUITests;
+			productReference = BEA1C2D32024610B004FD267 /* AirdiaWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEA1C2A82024610B004FD267 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = muma;
+				TargetAttributes = {
+					BEA1C2AF2024610B004FD267 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BEA1C2C72024610B004FD267 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEA1C2AF2024610B004FD267;
+					};
+					BEA1C2D22024610B004FD267 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEA1C2AF2024610B004FD267;
+					};
+				};
+			};
+			buildConfigurationList = BEA1C2AB2024610B004FD267 /* Build configuration list for PBXProject "AirdiaWallet" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEA1C2A72024610B004FD267;
+			productRefGroup = BEA1C2B12024610B004FD267 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEA1C2AF2024610B004FD267 /* AirdiaWallet */,
+				BEA1C2C72024610B004FD267 /* AirdiaWalletTests */,
+				BEA1C2D22024610B004FD267 /* AirdiaWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEA1C2AE2024610B004FD267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA1C2C02024610B004FD267 /* LaunchScreen.storyboard in Resources */,
+				BEA1C2BD2024610B004FD267 /* Assets.xcassets in Resources */,
+				BEA1C2BB2024610B004FD267 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA1C2C62024610B004FD267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA1C2D12024610B004FD267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEA1C2AC2024610B004FD267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA1C2B82024610B004FD267 /* ViewController.m in Sources */,
+				BEA1C2C32024610B004FD267 /* main.m in Sources */,
+				BEA1C2B52024610B004FD267 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA1C2C42024610B004FD267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA1C2CD2024610B004FD267 /* AirdiaWalletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA1C2CF2024610B004FD267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA1C2D82024610B004FD267 /* AirdiaWalletUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEA1C2CA2024610B004FD267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA1C2AF2024610B004FD267 /* AirdiaWallet */;
+			targetProxy = BEA1C2C92024610B004FD267 /* PBXContainerItemProxy */;
+		};
+		BEA1C2D52024610B004FD267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA1C2AF2024610B004FD267 /* AirdiaWallet */;
+			targetProxy = BEA1C2D42024610B004FD267 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEA1C2B92024610B004FD267 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA1C2BA2024610B004FD267 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEA1C2BE2024610B004FD267 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA1C2BF2024610B004FD267 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEA1C2DA2024610B004FD267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BEA1C2DB2024610B004FD267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEA1C2DD2024610B004FD267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirdiaWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.AirdiaWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEA1C2DE2024610B004FD267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirdiaWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.AirdiaWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEA1C2E02024610B004FD267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirdiaWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.AirdiaWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirdiaWallet.app/AirdiaWallet";
+			};
+			name = Debug;
+		};
+		BEA1C2E12024610B004FD267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirdiaWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.AirdiaWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirdiaWallet.app/AirdiaWallet";
+			};
+			name = Release;
+		};
+		BEA1C2E32024610B004FD267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirdiaWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.AirdiaWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirdiaWallet;
+			};
+			name = Debug;
+		};
+		BEA1C2E42024610B004FD267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirdiaWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.AirdiaWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirdiaWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEA1C2AB2024610B004FD267 /* Build configuration list for PBXProject "AirdiaWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA1C2DA2024610B004FD267 /* Debug */,
+				BEA1C2DB2024610B004FD267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA1C2DC2024610B004FD267 /* Build configuration list for PBXNativeTarget "AirdiaWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA1C2DD2024610B004FD267 /* Debug */,
+				BEA1C2DE2024610B004FD267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA1C2DF2024610B004FD267 /* Build configuration list for PBXNativeTarget "AirdiaWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA1C2E02024610B004FD267 /* Debug */,
+				BEA1C2E12024610B004FD267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA1C2E22024610B004FD267 /* Build configuration list for PBXNativeTarget "AirdiaWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA1C2E32024610B004FD267 /* Debug */,
+				BEA1C2E42024610B004FD267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEA1C2A82024610B004FD267 /* Project object */;
+}
