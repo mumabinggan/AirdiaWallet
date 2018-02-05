@@ -38,6 +38,8 @@
 		BEA1C4B220247C96004FD267 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41D20246819004FD267 /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BEA1C4B320247C96004FD267 /* JHKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C3F620246468004FD267 /* JHKit.framework */; };
 		BEA1C4B420247C96004FD267 /* JHKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C3F620246468004FD267 /* JHKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEA1C4CF20248831004FD267 /* ZAABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C4CE20248831004FD267 /* ZAABaseViewController.m */; };
+		BEA1C4D22024884B004FD267 /* ZAAOpenMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C4D12024884B004FD267 /* ZAAOpenMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +136,10 @@
 		BEA1C41B20246819004FD267 /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA1C41C20246819004FD267 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA1C41D20246819004FD267 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA1C4CD20248831004FD267 /* ZAABaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAABaseViewController.h; sourceTree = "<group>"; };
+		BEA1C4CE20248831004FD267 /* ZAABaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAABaseViewController.m; sourceTree = "<group>"; };
+		BEA1C4D02024884B004FD267 /* ZAAOpenMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAAOpenMainViewController.h; sourceTree = "<group>"; };
+		BEA1C4D12024884B004FD267 /* ZAAOpenMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAAOpenMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +206,12 @@
 		BEA1C2B22024610B004FD267 /* AirdiaWallet */ = {
 			isa = PBXGroup;
 			children = (
+				BEA1C4CC20248801004FD267 /* ZAAOpenMain */,
+				BEA1C4C62024878E004FD267 /* ZAACreateWallet */,
+				BEA1C4C82024878E004FD267 /* ZAAImportWallet */,
+				BEA1C4CB2024878F004FD267 /* ZAALogin */,
+				BEA1C4C92024878F004FD267 /* ZAALoginTypeSetting */,
+				BEA1C4CA2024878F004FD267 /* ZAAPrivateKeySave */,
 				BEA1C4062024657F004FD267 /* ZAAKit */,
 				BEA1C2B32024610B004FD267 /* AppDelegate.h */,
 				BEA1C2B42024610B004FD267 /* AppDelegate.m */,
@@ -267,6 +279,8 @@
 			children = (
 				BEA1C40A202465B5004FD267 /* ZAANavigationController.h */,
 				BEA1C40B202465B5004FD267 /* ZAANavigationController.m */,
+				BEA1C4CD20248831004FD267 /* ZAABaseViewController.h */,
+				BEA1C4CE20248831004FD267 /* ZAABaseViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -296,6 +310,50 @@
 				BEA1C41D20246819004FD267 /* SDWebImage.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEA1C4C62024878E004FD267 /* ZAACreateWallet */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZAACreateWallet;
+			sourceTree = "<group>";
+		};
+		BEA1C4C82024878E004FD267 /* ZAAImportWallet */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZAAImportWallet;
+			sourceTree = "<group>";
+		};
+		BEA1C4C92024878F004FD267 /* ZAALoginTypeSetting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZAALoginTypeSetting;
+			sourceTree = "<group>";
+		};
+		BEA1C4CA2024878F004FD267 /* ZAAPrivateKeySave */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZAAPrivateKeySave;
+			sourceTree = "<group>";
+		};
+		BEA1C4CB2024878F004FD267 /* ZAALogin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZAALogin;
+			sourceTree = "<group>";
+		};
+		BEA1C4CC20248801004FD267 /* ZAAOpenMain */ = {
+			isa = PBXGroup;
+			children = (
+				BEA1C4D02024884B004FD267 /* ZAAOpenMainViewController.h */,
+				BEA1C4D12024884B004FD267 /* ZAAOpenMainViewController.m */,
+			);
+			path = ZAAOpenMain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -461,6 +519,8 @@
 				BEA1C3FE202464C7004FD267 /* AppDelegate+UI.m in Sources */,
 				BEA1C2C32024610B004FD267 /* main.m in Sources */,
 				BEA1C3FB202464AE004FD267 /* ZAAMainViewController.m in Sources */,
+				BEA1C4CF20248831004FD267 /* ZAABaseViewController.m in Sources */,
+				BEA1C4D22024884B004FD267 /* ZAAOpenMainViewController.m in Sources */,
 				BEA1C2B52024610B004FD267 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
