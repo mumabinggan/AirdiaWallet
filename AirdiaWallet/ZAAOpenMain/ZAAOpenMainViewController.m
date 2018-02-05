@@ -7,14 +7,17 @@
 //
 
 #import "ZAAOpenMainViewController.h"
+#import "ZAALoginViewController.h"
+#import "ZAAImportWalletViewController.h"
+#import "ZAACreateWalletViewController.h"
 
 @interface ZAAOpenMainViewController ()
-{
-    UIImageView *_bgImageView;
-    UIButton *_loginBtn;
-    UIButton *_createBtn;
-    UIButton *_importWalletBtn;
-}
+
+@property (nonatomic, strong) JHImageView *bgImageView;
+@property (nonatomic, strong) JHButton *loginBtn;
+@property (nonatomic, strong) JHButton *createBtn;
+@property (nonatomic, strong) JHButton *importWalletBtn;
+
 @end
 
 @implementation ZAAOpenMainViewController
@@ -23,31 +26,91 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self initSubViews];
+    self.navigationController.navigationBar.hidden = YES;
+}
+
+- (JHImageView *)bgImageView {
+    if (!_bgImageView) {
+        _bgImageView = [[JHImageView alloc] init];
+        [_bgImageView setContentMode:UIViewContentModeScaleAspectFill];
+        _bgImageView.image = [UIImage imageNamed:@"open_main_bg"];
+        [self.view addSubview:_bgImageView];
+    }
+    return _bgImageView;
+}
+
+- (JHButton *)loginBtn {
+    if (!_loginBtn) {
+        _loginBtn = [self createBtn:@"登录"];
+        [_loginBtn addTarget:self action:@selector(touchLoginBtn:) forControlEvents:UIControlEventTouchUpInside];
+        [self.view addSubview:_loginBtn];
+    }
+    return _loginBtn;
+}
+
+- (JHButton *)createBtn {
+    if (!_createBtn) {
+        _createBtn = [self createBtn:@"创建"];
+        [_createBtn addTarget:self action:@selector(touchCreateBtn:) forControlEvents:UIControlEventTouchUpInside];
+        [self.view addSubview:_createBtn];
+    }
+    return _createBtn;
+}
+
+- (JHButton *)importWalletBtn {
+    if (!_importWalletBtn) {
+        _importWalletBtn = [self createBtn:@"Import Wallet"];
+        [_importWalletBtn addTarget:self action:@selector(touchImportBtn:) forControlEvents:UIControlEventTouchUpInside];
+        [self.view addSubview:_importWalletBtn];
+    }
+    return _importWalletBtn;
 }
 
 - (void)initSubViews {
+    [self.bgImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
     
-    _bgImageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
-    _bgImageView.image = [UIImage imageNamed:@"open_main_bg"];
-    [self.view addSubview:_bgImageView];
+    [self.importWalletBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.size.equalTo(@(CGSizeMake(200, 45)));
+        make.centerX.equalTo(self.view);
+        make.bottom.equalTo(self.view).offset(-kAppAdaptWidth(70));
+    }];
     
-    CGRect frame = CGRectMake((kDeviceWidth-200)/2, kDeviceHeight-250, 200, 45);
-    _loginBtn = [self createBtn:frame title:@"登录"];
-    [self.view addSubview:_loginBtn];
+    [self.createBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.size.equalTo(@(CGSizeMake(200, 45)));
+        make.centerX.equalTo(self.view);
+        make.bottom.equalTo(self.importWalletBtn).offset(-kAppAdaptWidth(70));
+    }];
     
-    frame.origin.y += 70;
-    _createBtn = [self createBtn:frame title:@"创建"];
-    [self.view addSubview:_createBtn];
-    
-    frame.origin.y += 70;
-    _importWalletBtn = [self createBtn:frame title:@"Import Wallet"];
-    [self.view addSubview:_importWalletBtn];
+    [self.loginBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.size.equalTo(@(CGSizeMake(200, 45)));
+        make.centerX.equalTo(self.view);
+        make.bottom.equalTo(self.createBtn).offset(-kAppAdaptWidth(70));
+    }];
 }
 
-- (JHButton *)createBtn:(CGRect)frame title:(NSString *)title {
-    JHButton *btn = [[JHButton alloc] initWithFrame:frame difRadius:JHRadiusMakeRadius(3) backgroundColor:[UIColor colorWithRed:255 green:255 blue:255 alpha:0.5]];
+- (JHButton *)createBtn:(NSString *)title {
+    JHButton *btn = [[JHButton alloc] init];
+    [btn setBackgroundColor:kRGBA(255, 255, 255, 0.5)];
+    btn.layer.cornerRadius = 3;
     [btn setTitle:title forState:UIControlStateNormal];
     return btn;
+}
+
+- (void)touchLoginBtn:(UIButton *)sender {
+    ZAALoginViewController *vc = [[ZAALoginViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)touchImportBtn:(UIButton *)sender {
+    ZAAImportWalletViewController *vc = [[ZAAImportWalletViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)touchCreateBtn:(UIButton *)sender {
+    ZAACreateWalletViewController *vc = [[ZAACreateWalletViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

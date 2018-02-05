@@ -19,27 +19,30 @@
 		BEA1C40C202465B5004FD267 /* ZAANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C40B202465B5004FD267 /* ZAANavigationController.m */; };
 		BEA1C49E20247C50004FD267 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41820246819004FD267 /* AFNetworking.framework */; };
 		BEA1C49F20247C50004FD267 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41920246819004FD267 /* FMDB.framework */; };
-		BEA1C4A020247C50004FD267 /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41A20246819004FD267 /* IQKeyboardManager.framework */; };
 		BEA1C4A120247C50004FD267 /* JHKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C3F620246468004FD267 /* JHKit.framework */; };
 		BEA1C4A220247C50004FD267 /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41B20246819004FD267 /* JSONModel.framework */; };
 		BEA1C4A320247C50004FD267 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41C20246819004FD267 /* MBProgressHUD.framework */; };
-		BEA1C4A420247C50004FD267 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41D20246819004FD267 /* SDWebImage.framework */; };
-		BEA1C4A720247C95004FD267 /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41B20246819004FD267 /* JSONModel.framework */; };
 		BEA1C4A820247C95004FD267 /* JSONModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41B20246819004FD267 /* JSONModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BEA1C4A920247C95004FD267 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41820246819004FD267 /* AFNetworking.framework */; };
 		BEA1C4AA20247C95004FD267 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41820246819004FD267 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BEA1C4AB20247C95004FD267 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41920246819004FD267 /* FMDB.framework */; };
 		BEA1C4AC20247C95004FD267 /* FMDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41920246819004FD267 /* FMDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BEA1C4AD20247C96004FD267 /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41A20246819004FD267 /* IQKeyboardManager.framework */; };
 		BEA1C4AE20247C96004FD267 /* IQKeyboardManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41A20246819004FD267 /* IQKeyboardManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BEA1C4AF20247C96004FD267 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41C20246819004FD267 /* MBProgressHUD.framework */; };
 		BEA1C4B020247C96004FD267 /* MBProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41C20246819004FD267 /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BEA1C4B120247C96004FD267 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41D20246819004FD267 /* SDWebImage.framework */; };
 		BEA1C4B220247C96004FD267 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C41D20246819004FD267 /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BEA1C4B320247C96004FD267 /* JHKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C3F620246468004FD267 /* JHKit.framework */; };
 		BEA1C4B420247C96004FD267 /* JHKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C3F620246468004FD267 /* JHKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BEA1C4CF20248831004FD267 /* ZAABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C4CE20248831004FD267 /* ZAABaseViewController.m */; };
 		BEA1C4D22024884B004FD267 /* ZAAOpenMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C4D12024884B004FD267 /* ZAAOpenMainViewController.m */; };
+		BEE93B9E202806DE00B0C85B /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE93B9F202806DE00B0C85B /* Masonry.framework */; };
+		BEE93BA0202806FA00B0C85B /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE93B9F202806DE00B0C85B /* Masonry.framework */; };
+		BEE93BA1202806FA00B0C85B /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEE93B9F202806DE00B0C85B /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEE93BCC202812F600B0C85B /* ZAACreateWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BCB202812F600B0C85B /* ZAACreateWalletViewController.m */; };
+		BEE93BCF2028130E00B0C85B /* ZAALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BCE2028130E00B0C85B /* ZAALoginViewController.m */; };
+		BEE93BD02028130E00B0C85B /* ZAALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BCE2028130E00B0C85B /* ZAALoginViewController.m */; };
+		BEE93BD12028130E00B0C85B /* ZAALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BCE2028130E00B0C85B /* ZAALoginViewController.m */; };
+		BEE93BD92028136000B0C85B /* ZAAImportWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BD82028136000B0C85B /* ZAAImportWalletViewController.m */; };
+		BEE93BDA2028136000B0C85B /* ZAAImportWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BD82028136000B0C85B /* ZAAImportWalletViewController.m */; };
+		BEE93BDB2028136000B0C85B /* ZAAImportWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BD82028136000B0C85B /* ZAAImportWalletViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +103,7 @@
 				BEA1C4B020247C96004FD267 /* MBProgressHUD.framework in Embed Frameworks */,
 				BEA1C4B220247C96004FD267 /* SDWebImage.framework in Embed Frameworks */,
 				BEA1C4AA20247C95004FD267 /* AFNetworking.framework in Embed Frameworks */,
+				BEE93BA1202806FA00B0C85B /* Masonry.framework in Embed Frameworks */,
 				BEA1C4B420247C96004FD267 /* JHKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -140,6 +144,13 @@
 		BEA1C4CE20248831004FD267 /* ZAABaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAABaseViewController.m; sourceTree = "<group>"; };
 		BEA1C4D02024884B004FD267 /* ZAAOpenMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAAOpenMainViewController.h; sourceTree = "<group>"; };
 		BEA1C4D12024884B004FD267 /* ZAAOpenMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAAOpenMainViewController.m; sourceTree = "<group>"; };
+		BEE93B9F202806DE00B0C85B /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE93BCA202812F600B0C85B /* ZAACreateWalletViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAACreateWalletViewController.h; sourceTree = "<group>"; };
+		BEE93BCB202812F600B0C85B /* ZAACreateWalletViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAACreateWalletViewController.m; sourceTree = "<group>"; };
+		BEE93BCD2028130E00B0C85B /* ZAALoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAALoginViewController.h; sourceTree = "<group>"; };
+		BEE93BCE2028130E00B0C85B /* ZAALoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAALoginViewController.m; sourceTree = "<group>"; };
+		BEE93BD72028136000B0C85B /* ZAAImportWalletViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAAImportWalletViewController.h; sourceTree = "<group>"; };
+		BEE93BD82028136000B0C85B /* ZAAImportWalletViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAAImportWalletViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,20 +158,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE93B9E202806DE00B0C85B /* Masonry.framework in Frameworks */,
 				BEA1C49E20247C50004FD267 /* AFNetworking.framework in Frameworks */,
 				BEA1C49F20247C50004FD267 /* FMDB.framework in Frameworks */,
-				BEA1C4A720247C95004FD267 /* JSONModel.framework in Frameworks */,
-				BEA1C4AB20247C95004FD267 /* FMDB.framework in Frameworks */,
-				BEA1C4A020247C50004FD267 /* IQKeyboardManager.framework in Frameworks */,
 				BEA1C4A220247C50004FD267 /* JSONModel.framework in Frameworks */,
 				BEA1C4A320247C50004FD267 /* MBProgressHUD.framework in Frameworks */,
+				BEE93BA0202806FA00B0C85B /* Masonry.framework in Frameworks */,
 				BEA1C4AD20247C96004FD267 /* IQKeyboardManager.framework in Frameworks */,
-				BEA1C4AF20247C96004FD267 /* MBProgressHUD.framework in Frameworks */,
 				BEA1C4B120247C96004FD267 /* SDWebImage.framework in Frameworks */,
-				BEA1C4A420247C50004FD267 /* SDWebImage.framework in Frameworks */,
-				BEA1C4A920247C95004FD267 /* AFNetworking.framework in Frameworks */,
 				BEA1C4A120247C50004FD267 /* JHKit.framework in Frameworks */,
-				BEA1C4B320247C96004FD267 /* JHKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +308,7 @@
 		BEA1C40E202466C4004FD267 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BEE93B9F202806DE00B0C85B /* Masonry.framework */,
 				BEA1C41820246819004FD267 /* AFNetworking.framework */,
 				BEA1C41920246819004FD267 /* FMDB.framework */,
 				BEA1C41A20246819004FD267 /* IQKeyboardManager.framework */,
@@ -315,6 +322,8 @@
 		BEA1C4C62024878E004FD267 /* ZAACreateWallet */ = {
 			isa = PBXGroup;
 			children = (
+				BEE93BCA202812F600B0C85B /* ZAACreateWalletViewController.h */,
+				BEE93BCB202812F600B0C85B /* ZAACreateWalletViewController.m */,
 			);
 			path = ZAACreateWallet;
 			sourceTree = "<group>";
@@ -322,6 +331,8 @@
 		BEA1C4C82024878E004FD267 /* ZAAImportWallet */ = {
 			isa = PBXGroup;
 			children = (
+				BEE93BD72028136000B0C85B /* ZAAImportWalletViewController.h */,
+				BEE93BD82028136000B0C85B /* ZAAImportWalletViewController.m */,
 			);
 			path = ZAAImportWallet;
 			sourceTree = "<group>";
@@ -343,6 +354,8 @@
 		BEA1C4CB2024878F004FD267 /* ZAALogin */ = {
 			isa = PBXGroup;
 			children = (
+				BEE93BCD2028130E00B0C85B /* ZAALoginViewController.h */,
+				BEE93BCE2028130E00B0C85B /* ZAALoginViewController.m */,
 			);
 			path = ZAALogin;
 			sourceTree = "<group>";
@@ -515,9 +528,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE93BCF2028130E00B0C85B /* ZAALoginViewController.m in Sources */,
+				BEE93BD92028136000B0C85B /* ZAAImportWalletViewController.m in Sources */,
 				BEA1C40C202465B5004FD267 /* ZAANavigationController.m in Sources */,
 				BEA1C3FE202464C7004FD267 /* AppDelegate+UI.m in Sources */,
 				BEA1C2C32024610B004FD267 /* main.m in Sources */,
+				BEE93BCC202812F600B0C85B /* ZAACreateWalletViewController.m in Sources */,
 				BEA1C3FB202464AE004FD267 /* ZAAMainViewController.m in Sources */,
 				BEA1C4CF20248831004FD267 /* ZAABaseViewController.m in Sources */,
 				BEA1C4D22024884B004FD267 /* ZAAOpenMainViewController.m in Sources */,
@@ -529,7 +545,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE93BDA2028136000B0C85B /* ZAAImportWalletViewController.m in Sources */,
 				BEA1C2CD2024610B004FD267 /* AirdiaWalletTests.m in Sources */,
+				BEE93BD02028130E00B0C85B /* ZAALoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,7 +555,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE93BDB2028136000B0C85B /* ZAAImportWalletViewController.m in Sources */,
 				BEA1C2D82024610B004FD267 /* AirdiaWalletUITests.m in Sources */,
+				BEE93BD12028130E00B0C85B /* ZAALoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

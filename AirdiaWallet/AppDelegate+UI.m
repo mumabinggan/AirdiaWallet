@@ -32,8 +32,11 @@
 }
 
 - (void)initOpenMainViewController {
+//    ZAAOpenMainViewController *vc = [[ZAAOpenMainViewController alloc] init];
+//    [_rootVC presentViewController:vc animated:NO completion:nil];
     ZAAOpenMainViewController *vc = [[ZAAOpenMainViewController alloc] init];
-    [_rootVC presentViewController:vc animated:NO completion:nil];
+    //[_rootVC presentViewController:vc animated:NO completion:nil];
+    [_rootVC setViewControllers:@[vc] animated:NO];
 }
 
 - (void)loadRootViewController:(UIApplication *)application withOptions:(NSDictionary *)launchOptions {
