@@ -43,6 +43,25 @@
 		BEE93BD92028136000B0C85B /* ZAAImportWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BD82028136000B0C85B /* ZAAImportWalletViewController.m */; };
 		BEE93BDA2028136000B0C85B /* ZAAImportWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BD82028136000B0C85B /* ZAAImportWalletViewController.m */; };
 		BEE93BDB2028136000B0C85B /* ZAAImportWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BD82028136000B0C85B /* ZAAImportWalletViewController.m */; };
+		BEE93BDC202839CC00B0C85B /* ZAACreateWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BCB202812F600B0C85B /* ZAACreateWalletViewController.m */; };
+		BEE93BDD202839CD00B0C85B /* ZAACreateWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BCB202812F600B0C85B /* ZAACreateWalletViewController.m */; };
+		BEE93BDE202839D200B0C85B /* ZAAOpenMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C4D12024884B004FD267 /* ZAAOpenMainViewController.m */; };
+		BEE93BDF202839D200B0C85B /* ZAAOpenMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C4D12024884B004FD267 /* ZAAOpenMainViewController.m */; };
+		BEE93BE0202839D600B0C85B /* ZAANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C40B202465B5004FD267 /* ZAANavigationController.m */; };
+		BEE93BE1202839D700B0C85B /* ZAANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C40B202465B5004FD267 /* ZAANavigationController.m */; };
+		BEE93BE2202839DA00B0C85B /* ZAABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C4CE20248831004FD267 /* ZAABaseViewController.m */; };
+		BEE93BE3202839DA00B0C85B /* ZAABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1C4CE20248831004FD267 /* ZAABaseViewController.m */; };
+		BEE93BEC20283AC300B0C85B /* ZAAView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BEB20283AC300B0C85B /* ZAAView.m */; };
+		BEE93BED20283AC300B0C85B /* ZAAView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BEB20283AC300B0C85B /* ZAAView.m */; };
+		BEE93BEE20283AC300B0C85B /* ZAAView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BEB20283AC300B0C85B /* ZAAView.m */; };
+		BEE93BF120283B0E00B0C85B /* ZAAPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BF020283B0E00B0C85B /* ZAAPasswordInputView.m */; };
+		BEE93BF220283B0E00B0C85B /* ZAAPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BF020283B0E00B0C85B /* ZAAPasswordInputView.m */; };
+		BEE93BF320283B0E00B0C85B /* ZAAPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BF020283B0E00B0C85B /* ZAAPasswordInputView.m */; };
+		BEE93BF62029640300B0C85B /* ZAALoginTypeSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93BF52029640300B0C85B /* ZAALoginTypeSettingViewController.m */; };
+		BEE93C022029656B00B0C85B /* ZZAApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93C012029656B00B0C85B /* ZZAApplication.m */; };
+		BEE93C0E20298DB000B0C85B /* ZAAPrivateKeySaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93C0D20298DB000B0C85B /* ZAAPrivateKeySaveViewController.m */; };
+		BEE93C0F20298DB000B0C85B /* ZAAPrivateKeySaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93C0D20298DB000B0C85B /* ZAAPrivateKeySaveViewController.m */; };
+		BEE93C1020298DB000B0C85B /* ZAAPrivateKeySaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE93C0D20298DB000B0C85B /* ZAAPrivateKeySaveViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +170,16 @@
 		BEE93BCE2028130E00B0C85B /* ZAALoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAALoginViewController.m; sourceTree = "<group>"; };
 		BEE93BD72028136000B0C85B /* ZAAImportWalletViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAAImportWalletViewController.h; sourceTree = "<group>"; };
 		BEE93BD82028136000B0C85B /* ZAAImportWalletViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAAImportWalletViewController.m; sourceTree = "<group>"; };
+		BEE93BEA20283AC300B0C85B /* ZAAView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAAView.h; sourceTree = "<group>"; };
+		BEE93BEB20283AC300B0C85B /* ZAAView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAAView.m; sourceTree = "<group>"; };
+		BEE93BEF20283B0E00B0C85B /* ZAAPasswordInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAAPasswordInputView.h; sourceTree = "<group>"; };
+		BEE93BF020283B0E00B0C85B /* ZAAPasswordInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAAPasswordInputView.m; sourceTree = "<group>"; };
+		BEE93BF42029640300B0C85B /* ZAALoginTypeSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAALoginTypeSettingViewController.h; sourceTree = "<group>"; };
+		BEE93BF52029640300B0C85B /* ZAALoginTypeSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAALoginTypeSettingViewController.m; sourceTree = "<group>"; };
+		BEE93C002029656B00B0C85B /* ZZAApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAApplication.h; sourceTree = "<group>"; };
+		BEE93C012029656B00B0C85B /* ZZAApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAApplication.m; sourceTree = "<group>"; };
+		BEE93C0C20298DB000B0C85B /* ZAAPrivateKeySaveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAAPrivateKeySaveViewController.h; sourceTree = "<group>"; };
+		BEE93C0D20298DB000B0C85B /* ZAAPrivateKeySaveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAAPrivateKeySaveViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +252,8 @@
 				BEA1C2B42024610B004FD267 /* AppDelegate.m */,
 				BEA1C3FC202464C7004FD267 /* AppDelegate+UI.h */,
 				BEA1C3FD202464C7004FD267 /* AppDelegate+UI.m */,
+				BEE93C002029656B00B0C85B /* ZZAApplication.h */,
+				BEE93C012029656B00B0C85B /* ZZAApplication.m */,
 				BEA1C2B92024610B004FD267 /* Main.storyboard */,
 				BEA1C2BC2024610B004FD267 /* Assets.xcassets */,
 				BEA1C2BE2024610B004FD267 /* LaunchScreen.storyboard */,
@@ -283,6 +314,8 @@
 		BEA1C4072024657F004FD267 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				BEE93BEA20283AC300B0C85B /* ZAAView.h */,
+				BEE93BEB20283AC300B0C85B /* ZAAView.m */,
 				BEA1C40A202465B5004FD267 /* ZAANavigationController.h */,
 				BEA1C40B202465B5004FD267 /* ZAANavigationController.m */,
 				BEA1C4CD20248831004FD267 /* ZAABaseViewController.h */,
@@ -340,6 +373,8 @@
 		BEA1C4C92024878F004FD267 /* ZAALoginTypeSetting */ = {
 			isa = PBXGroup;
 			children = (
+				BEE93BF42029640300B0C85B /* ZAALoginTypeSettingViewController.h */,
+				BEE93BF52029640300B0C85B /* ZAALoginTypeSettingViewController.m */,
 			);
 			path = ZAALoginTypeSetting;
 			sourceTree = "<group>";
@@ -347,6 +382,8 @@
 		BEA1C4CA2024878F004FD267 /* ZAAPrivateKeySave */ = {
 			isa = PBXGroup;
 			children = (
+				BEE93C0C20298DB000B0C85B /* ZAAPrivateKeySaveViewController.h */,
+				BEE93C0D20298DB000B0C85B /* ZAAPrivateKeySaveViewController.m */,
 			);
 			path = ZAAPrivateKeySave;
 			sourceTree = "<group>";
@@ -354,6 +391,7 @@
 		BEA1C4CB2024878F004FD267 /* ZAALogin */ = {
 			isa = PBXGroup;
 			children = (
+				BEE93BE420283A3300B0C85B /* Views */,
 				BEE93BCD2028130E00B0C85B /* ZAALoginViewController.h */,
 				BEE93BCE2028130E00B0C85B /* ZAALoginViewController.m */,
 			);
@@ -367,6 +405,15 @@
 				BEA1C4D12024884B004FD267 /* ZAAOpenMainViewController.m */,
 			);
 			path = ZAAOpenMain;
+			sourceTree = "<group>";
+		};
+		BEE93BE420283A3300B0C85B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEE93BEF20283B0E00B0C85B /* ZAAPasswordInputView.h */,
+				BEE93BF020283B0E00B0C85B /* ZAAPasswordInputView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -528,13 +575,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE93BEC20283AC300B0C85B /* ZAAView.m in Sources */,
 				BEE93BCF2028130E00B0C85B /* ZAALoginViewController.m in Sources */,
 				BEE93BD92028136000B0C85B /* ZAAImportWalletViewController.m in Sources */,
 				BEA1C40C202465B5004FD267 /* ZAANavigationController.m in Sources */,
 				BEA1C3FE202464C7004FD267 /* AppDelegate+UI.m in Sources */,
 				BEA1C2C32024610B004FD267 /* main.m in Sources */,
+				BEE93C0E20298DB000B0C85B /* ZAAPrivateKeySaveViewController.m in Sources */,
 				BEE93BCC202812F600B0C85B /* ZAACreateWalletViewController.m in Sources */,
+				BEE93BF62029640300B0C85B /* ZAALoginTypeSettingViewController.m in Sources */,
+				BEE93BF120283B0E00B0C85B /* ZAAPasswordInputView.m in Sources */,
 				BEA1C3FB202464AE004FD267 /* ZAAMainViewController.m in Sources */,
+				BEE93C022029656B00B0C85B /* ZZAApplication.m in Sources */,
 				BEA1C4CF20248831004FD267 /* ZAABaseViewController.m in Sources */,
 				BEA1C4D22024884B004FD267 /* ZAAOpenMainViewController.m in Sources */,
 				BEA1C2B52024610B004FD267 /* AppDelegate.m in Sources */,
@@ -545,8 +597,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE93BDF202839D200B0C85B /* ZAAOpenMainViewController.m in Sources */,
+				BEE93BE3202839DA00B0C85B /* ZAABaseViewController.m in Sources */,
 				BEE93BDA2028136000B0C85B /* ZAAImportWalletViewController.m in Sources */,
+				BEE93BED20283AC300B0C85B /* ZAAView.m in Sources */,
+				BEE93BF220283B0E00B0C85B /* ZAAPasswordInputView.m in Sources */,
 				BEA1C2CD2024610B004FD267 /* AirdiaWalletTests.m in Sources */,
+				BEE93C0F20298DB000B0C85B /* ZAAPrivateKeySaveViewController.m in Sources */,
+				BEE93BDC202839CC00B0C85B /* ZAACreateWalletViewController.m in Sources */,
+				BEE93BE0202839D600B0C85B /* ZAANavigationController.m in Sources */,
 				BEE93BD02028130E00B0C85B /* ZAALoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,8 +614,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE93BDE202839D200B0C85B /* ZAAOpenMainViewController.m in Sources */,
+				BEE93BE2202839DA00B0C85B /* ZAABaseViewController.m in Sources */,
 				BEE93BDB2028136000B0C85B /* ZAAImportWalletViewController.m in Sources */,
+				BEE93BEE20283AC300B0C85B /* ZAAView.m in Sources */,
+				BEE93BF320283B0E00B0C85B /* ZAAPasswordInputView.m in Sources */,
 				BEA1C2D82024610B004FD267 /* AirdiaWalletUITests.m in Sources */,
+				BEE93C1020298DB000B0C85B /* ZAAPrivateKeySaveViewController.m in Sources */,
+				BEE93BDD202839CD00B0C85B /* ZAACreateWalletViewController.m in Sources */,
+				BEE93BE1202839D700B0C85B /* ZAANavigationController.m in Sources */,
 				BEE93BD12028130E00B0C85B /* ZAALoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

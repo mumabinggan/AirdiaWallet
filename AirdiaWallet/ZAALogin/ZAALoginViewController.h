@@ -10,4 +10,8 @@
 
 @interface ZAALoginViewController : ZAABaseViewController
 
+@property (nonatomic, strong) NSString *titleStr;
+
+@property (nonatomic, copy) void (^onLogin)(BOOL success);
+
 @end

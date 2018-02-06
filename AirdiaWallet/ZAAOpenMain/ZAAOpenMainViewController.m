@@ -10,6 +10,9 @@
 #import "ZAALoginViewController.h"
 #import "ZAAImportWalletViewController.h"
 #import "ZAACreateWalletViewController.h"
+#import "ZAALoginViewController.h"
+#import "ZAALoginTypeSettingViewController.h"
+#import "ZAAPrivateKeySaveViewController.h"
 
 @interface ZAAOpenMainViewController ()
 
@@ -99,18 +102,53 @@
 }
 
 - (void)touchLoginBtn:(UIButton *)sender {
+    WeakSelf;
     ZAALoginViewController *vc = [[ZAALoginViewController alloc] init];
+    vc.onLogin = ^(BOOL success) {
+        [weakSelf handleLogin:success];
+    };
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)handleLogin:(BOOL)success {
+    if (success) {
+        if (self.onApply) {
+            self.onApply();
+        }
+    }
 }
 
 - (void)touchImportBtn:(UIButton *)sender {
+    WeakSelf;
     ZAAImportWalletViewController *vc = [[ZAAImportWalletViewController alloc] init];
+    vc.onApply = ^{
+        [weakSelf handleImport];
+    };
     [self.navigationController pushViewController:vc animated:YES];
 }
 
+- (void)handleImport {
+    if (self.onApply) {
+        self.onApply();
+    }
+}
+
 - (void)touchCreateBtn:(UIButton *)sender {
+    WeakSelf;
     ZAACreateWalletViewController *vc = [[ZAACreateWalletViewController alloc] init];
+    vc.fromType = ZAACreateFromType_Create;
+    vc.onCreate = ^(BOOL success, NSString *pin) {
+        [weakSelf handleCreate:success pin:pin];
+    };
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)handleCreate:(BOOL)success pin:(NSString *)pin {
+    if (success) {
+        if (self.onApply) {
+            self.onApply();
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning {

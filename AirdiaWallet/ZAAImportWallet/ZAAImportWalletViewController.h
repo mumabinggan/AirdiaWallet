@@ -10,4 +10,6 @@
 
 @interface ZAAImportWalletViewController : ZAABaseViewController
 
+@property (nonatomic, copy) void (^onApply)();
+
 @end

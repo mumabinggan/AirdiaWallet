@@ -32,10 +32,11 @@
 }
 
 - (void)initOpenMainViewController {
-//    ZAAOpenMainViewController *vc = [[ZAAOpenMainViewController alloc] init];
-//    [_rootVC presentViewController:vc animated:NO completion:nil];
+    WeakSelf;
     ZAAOpenMainViewController *vc = [[ZAAOpenMainViewController alloc] init];
-    //[_rootVC presentViewController:vc animated:NO completion:nil];
+    vc.onApply = ^{
+        [weakSelf loadRootViewController:nil withOptions:nil];
+    };
     [_rootVC setViewControllers:@[vc] animated:NO];
 }
 

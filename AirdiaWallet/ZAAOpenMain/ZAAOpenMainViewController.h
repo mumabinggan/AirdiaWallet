@@ -10,4 +10,6 @@
 
 @interface ZAAOpenMainViewController : ZAABaseViewController
 
+@property (nonatomic, copy) void (^onApply)();
+
 @end
