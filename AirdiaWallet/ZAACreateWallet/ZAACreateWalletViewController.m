@@ -13,6 +13,8 @@
 
 @interface ZAACreateWalletViewController ()
 
+@property (nonatomic, strong) JHImageView *bgImageView;
+
 @property (nonatomic, strong) JHLabel *titleLabel;
 
 @property (nonatomic, strong) ZAAPasswordInputView *passwordView;
@@ -31,10 +33,22 @@
 
 - (void)initSubViews {
     self.navigationController.navigationBar.hidden = YES;
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"login_bg"]];
+    [self.bgImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
     [self titleLabel];
     [self passwordView];
     [self cancelBtn];
+}
+
+- (JHImageView *)bgImageView {
+    if (!_bgImageView) {
+        _bgImageView = [[JHImageView alloc] init];
+        [_bgImageView setContentMode:UIViewContentModeScaleAspectFill];
+        _bgImageView.image = [UIImage imageNamed:@"login_bg"];
+        [self.view addSubview:_bgImageView];
+    }
+    return _bgImageView;
 }
 
 - (JHLabel *)titleLabel {
@@ -77,9 +91,16 @@
     }
     else {
         if ([password isEqualToString:self.pin]) {
-            NSString *value = [[ZZAApplication getInstance] valueFromKey:password];
+            NSString *value = nil;
+            if ([NSString isNullOrEmpty:_privateStr]) {
+                value = [[ZZAApplication getInstance] valueFromKey:password];
+            }
+            else {
+                value = _privateStr;
+            }
             WeakSelf;
             [[ZZAApplication getInstance] setPinKey:password value:value];
+            [[ZZAApplication getInstance] clearLoginType];
             ZAALoginTypeSettingViewController *vc = [[ZAALoginTypeSettingViewController alloc] init];
             vc.onLoginType = ^(ZAALoginType type) {
                 [weakSelf handleLoginType:type];
@@ -88,6 +109,7 @@
         }
         else {
             [self.passwordView clearUpPassword];
+            [self showWarningMessage:@"密码不一致"];
         }
     }
 }

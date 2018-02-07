@@ -10,6 +10,8 @@
 
 @interface ZAALoginTypeSettingViewController ()
 
+@property (nonatomic, strong) JHImageView *bgImageView;
+
 @property (nonatomic, strong) JHLabel *titleLabel;
 
 @property (nonatomic, strong) JHImageView *imageView;
@@ -32,7 +34,9 @@
 
 - (void)initSubViews {
     self.navigationController.navigationBar.hidden = YES;
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"login_bg"]];
+    [self.bgImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
     [self titleLabel];
     [self.useBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.size.equalTo(@(CGSizeMake(200, 45)));
@@ -44,6 +48,16 @@
         make.centerX.equalTo(self.view);
         make.bottom.equalTo(self.useBtn).offset(kAppAdaptWidth(50));
     }];
+}
+
+- (JHImageView *)bgImageView {
+    if (!_bgImageView) {
+        _bgImageView = [[JHImageView alloc] init];
+        [_bgImageView setContentMode:UIViewContentModeScaleAspectFill];
+        _bgImageView.image = [UIImage imageNamed:@"login_bg"];
+        [self.view addSubview:_bgImageView];
+    }
+    return _bgImageView;
 }
 
 - (JHLabel *)titleLabel {

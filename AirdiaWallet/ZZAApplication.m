@@ -74,6 +74,16 @@ static ZZAApplication* _sharedInstance = nil;
     return key;
 }
 
+- (BOOL)hasPin {
+    NSDictionary *dic = [[JHLocalSettings sharedSettings] getSettingsForKey:kPinKeyLocalSetting];
+    return dic != nil;
+}
+
+- (BOOL)hasPin:(NSString *)key {
+    NSDictionary *dic = [[JHLocalSettings sharedSettings] getSettingsForKey:kPinKeyLocalSetting];
+    return ([dic objectForKey:key] != nil);
+}
+
 @end
 
 @implementation ZZAApplication (ZAALoginType)
@@ -81,7 +91,7 @@ static ZZAApplication* _sharedInstance = nil;
 - (void)setLoginType:(ZAALoginType)value {
     [self clearPin];
     [self.pinMDictionary setValue:@(value) forKey:kLoginTypeKeyLocalSetting];
-    [[JHLocalSettings sharedSettings] setSettings:self.loginTypeMDictionry forKey:kLoginTypeKeyLocalSetting];
+    [[JHLocalSettings sharedSettings] setSettings:@(value) forKey:kLoginTypeKeyLocalSetting];
 }
 
 - (ZAALoginType)valueOfLoginType {

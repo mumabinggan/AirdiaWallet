@@ -11,6 +11,7 @@
 #import "ZAANavigationController.h"
 #import "ZAAMainViewController.h"
 #import "ZAAOpenMainViewController.h"
+#import "ZAALoginViewController.h"
 
 @implementation AppDelegate (UI)
 
@@ -33,11 +34,27 @@
 
 - (void)initOpenMainViewController {
     WeakSelf;
+    ZAABaseViewController *baseVC = nil;
     ZAAOpenMainViewController *vc = [[ZAAOpenMainViewController alloc] init];
     vc.onApply = ^{
         [weakSelf loadRootViewController:nil withOptions:nil];
     };
-    [_rootVC setViewControllers:@[vc] animated:NO];
+    baseVC = vc;
+//    if ([[ZZAApplication getInstance] hasPin]) {
+//        ZAAOpenMainViewController *vc = [[ZAAOpenMainViewController alloc] init];
+//        vc.onApply = ^{
+//            [weakSelf loadRootViewController:nil withOptions:nil];
+//        };
+//        baseVC = vc;
+//    }
+//    else {
+//        ZAALoginViewController *vc = [[ZAALoginViewController alloc] init];
+//        vc.onLogin = ^(BOOL success) {
+//            [weakSelf loadRootViewController:nil withOptions:nil];
+//        };
+//        baseVC = vc;
+//    }
+    [_rootVC setViewControllers:@[baseVC] animated:NO];
 }
 
 - (void)loadRootViewController:(UIApplication *)application withOptions:(NSDictionary *)launchOptions {

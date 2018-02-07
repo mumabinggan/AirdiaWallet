@@ -19,6 +19,8 @@ typedef NS_ENUM(NSInteger, ZAACreateFromType) {
 
 @property (nonatomic, strong) NSString *pin;
 
+@property (nonatomic, strong) NSString *privateStr;
+
 @property (nonatomic, assign) ZAACreateFromType fromType;
 
 @property (nonatomic, copy) void (^onCreate)(BOOL success, NSString *pin);

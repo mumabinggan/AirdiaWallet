@@ -30,6 +30,10 @@ typedef NS_ENUM(NSInteger, ZAALoginType) {
 
 - (void)clearPin;
 
+- (BOOL)hasPin;
+
+- (BOOL)hasPin:(NSString *)key;
+
 @end
 
 @interface ZZAApplication (ZAALoginType)

@@ -8,8 +8,11 @@
 
 #import "ZAALoginViewController.h"
 #import "ZAAPasswordInputView.h"
+#import <LocalAuthentication/LocalAuthentication.h>
 
 @interface ZAALoginViewController ()
+
+@property (nonatomic, strong) JHImageView *bgImageView;
 
 @property (nonatomic, strong) JHLabel *titleLabel;
 
@@ -29,10 +32,23 @@
 
 - (void)initSubViews {
     self.navigationController.navigationBar.hidden = YES;
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"login_bg"]];
+    [self.bgImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
     [self titleLabel];
     [self passwordView];
     [self cancelBtn];
+    [self handleLoginType];
+}
+
+- (JHImageView *)bgImageView {
+    if (!_bgImageView) {
+        _bgImageView = [[JHImageView alloc] init];
+        [_bgImageView setContentMode:UIViewContentModeScaleAspectFill];
+        _bgImageView.image = [UIImage imageNamed:@"login_bg"];
+        [self.view addSubview:_bgImageView];
+    }
+    return _bgImageView;
 }
 
 - (JHLabel *)titleLabel {
@@ -62,7 +78,14 @@
 }
 
 - (void)handleApply:(NSString *)password {
-    
+    if ([[ZZAApplication getInstance] hasPin:password]) {
+        if (self.onLogin) {
+            self.onLogin(YES);
+        }
+    }
+    else {
+        [self showWarningMessage:@"密码错误"];
+    }
 }
 
 - (JHButton *)cancelBtn {
@@ -81,6 +104,46 @@
 
 - (void)touchCancelBtn:(UIButton *)btn {
     [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)handleLoginType {
+    ZAALoginType loginType = [[ZZAApplication getInstance] valueOfLoginType];
+    if (loginType == ZAALoginType_TouchId) {
+        
+    }
+    if (loginType == ZAALoginType_TouchId || loginType == ZAALoginType_FaceId) {
+        LAContext *context = [LAContext new];
+        NSString *title = (loginType == ZAALoginType_TouchId) ? @"开启了指纹识别" : @"开启了面部识别";
+        WeakSelf;
+        [context evaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics localizedReason:title reply:^(BOOL success, NSError * _Nullable error) {
+            if (success) {
+                // 指纹识别成功，回主线程更新UI,弹出提示框
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [weakSelf handleLogin:YES];
+                });
+            }
+            if (error) {
+                // 错误的判断chuli
+                if (error.code == -2) {
+                    NSLog(@"用户取消了操作");
+                    // 取消操作，回主线程更新UI,弹出提示框
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        [weakSelf handleLogin:NO];
+                    });
+                } else {
+                    NSLog(@"错误: %@",error);
+                    // 指纹识别出现错误，回主线程更新UI,弹出提示框
+                    [weakSelf handleLogin:NO];
+                }
+            }
+        }];
+    }
+}
+
+- (void)handleLogin:(BOOL)success {
+    if (self.onLogin) {
+        self.onLogin(success);
+    }
 }
 
 - (void)didReceiveMemoryWarning {

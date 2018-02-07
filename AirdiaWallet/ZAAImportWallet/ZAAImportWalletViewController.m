@@ -11,6 +11,8 @@
 
 @interface ZAAImportWalletViewController ()
 
+@property (nonatomic, strong) JHImageView *bgImageView;
+
 @property (nonatomic, strong) JHLabel *titleLabel;
 
 @property (nonatomic, strong) JHTextView *textView;
@@ -29,10 +31,11 @@
     [self initSubViews];
 }
 
-
 - (void)initSubViews {
     self.navigationController.navigationBar.hidden = YES;
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"login_bg"]];
+    [self.bgImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
     [self titleLabel];
     [self.textView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.equalTo(@100);
@@ -53,6 +56,16 @@
         make.right.equalTo(@(-30));
         make.top.equalTo(@(260));
     }];
+}
+
+- (JHImageView *)bgImageView {
+    if (!_bgImageView) {
+        _bgImageView = [[JHImageView alloc] init];
+        [_bgImageView setContentMode:UIViewContentModeScaleAspectFill];
+        _bgImageView.image = [UIImage imageNamed:@"login_bg"];
+        [self.view addSubview:_bgImageView];
+    }
+    return _bgImageView;
 }
 
 - (JHLabel *)titleLabel {
